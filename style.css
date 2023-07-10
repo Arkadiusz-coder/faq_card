@@ -1,0 +1,166 @@
+:root 
+{
+    --dark-blue: hsl(238, 29%, 16%);
+    --soft-red: hsl(14, 88%, 65%);
+    --background-violet: hsl(273, 75%, 66%);
+    --background-blue: hsl(240, 73%, 65%);
+    --text-blue: hsl(237, 12%, 33%);
+    --text-dark-blue: hsl(240, 6%, 50%);
+    --dividers-blue: hsl(240, 5%, 91%);
+}
+
+*,
+::before,
+::after
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: 'Kumbh Sans', sans-serif;
+    padding: 0;
+    margin: 6rem 0;
+    font-size: 12px;
+    background-image: linear-gradient(to bottom, var(--background-violet), var(--background-blue));
+}
+
+.card
+{
+    width: 90%;
+    height: 100%;
+    background-color: white;
+    margin: 8rem auto;
+    border-radius: 1.3rem;
+    padding:  0 1.5rem;
+    box-shadow: 0px 8px 8px rgb(0, 0, 0, .5);
+}
+
+.pictures
+{
+  max-width: 80%;
+  max-height: 80%;
+} 
+
+.mobile-img
+{
+    display: block;
+}
+
+.desktop-img
+{
+    display: none;
+}
+
+.mobile-woman
+{
+    position: relative;
+    top: -8rem;
+    left: 2rem;
+}
+
+.mobile-shadow
+{  
+   position: relative;
+   width: 100%;
+   top: -13rem;
+   left: 2rem;
+}
+
+h1
+{
+   font-size: 2rem; 
+   text-align: center;
+   padding: .2rem;
+}
+
+.QA
+{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--dividers-blue);
+    padding: .2rem;
+}
+
+.faq
+{
+    padding-bottom: 2rem;
+}
+
+p
+{
+    font-size: .7rem;
+    color: var(--text-blue);
+}
+
+.QA .answer
+{
+    display: none;
+}
+
+.arrow-img
+{
+    padding-top: 1rem;
+}
+
+.QA:hover
+{
+   cursor: pointer;
+}
+
+.question:hover
+{
+    color: var(--soft-red);
+}
+
+.QA .question.active .answer
+{
+    display: block;
+}
+
+.QA .question.active .arrow-img
+{
+    transform: rotate(180deg);
+}
+
+@media (min-width: 490px) {
+
+    .desktop-img
+    {
+        display: block;
+    }
+
+    .mobile-img
+    {
+        display: none;
+    }
+
+    .desktop-woman
+    {
+        display: block;
+        width: 100%;
+    }
+
+    .card
+    {
+        display: flex;
+
+    }
+
+    h1 
+    {
+        font-size: 1.5rem;
+    }
+}
+
+.attribution 
+{ 
+    font-size: 9px; 
+    text-align: center; 
+    font-variant: small-caps;
+}
+
+.attribution a 
+{ 
+    color: hsl(228, 77%, 20%); 
+}
