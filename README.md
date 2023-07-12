@@ -18,7 +18,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://arkadiusz-coder.github.io/faq_card/)](https://github.com/Arkadiusz-coder/faq_card)
+- Solution URL: (https://github.com/Arkadiusz-coder/faq_card/tree/main)
 - Live Site URL:(https://arkadiusz-coder.github.io/faq_card/)
 
 ## My process
