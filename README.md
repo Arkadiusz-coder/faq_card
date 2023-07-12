@@ -1,7 +1,7 @@
 # faq_card
-FAQ card with javascript
+FAQ accordion card with javascript
 
-This is a solution to the [FAQ accordion card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/faq-accordion-card-XlyjD0Oam). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the FAQ accordion card challenge on Frontend Mentor(https://www.frontendmentor.io/challenges/faq-accordion-card-XlyjD0Oam). 
 
 ## Overview
 
@@ -18,14 +18,12 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://arkadiusz-coder.github.io/faq_card/)](https://github.com/Arkadiusz-coder/faq_card)
+- Live Site URL:(https://arkadiusz-coder.github.io/faq_card/)
 
 ## My process
 
-I have failed with that project. It took me about three times as long as I plnned and I did not finished it properly. I did succeed with hover states and with hide/show answer featcher. I could not figure out how to make pictures onm full screen mode visible. I have tryied every option I know, I even used chatGPT, but I didn't find solution to that problem.
-
-Experimenting with pictures visibility I ended up with .card div too heigh so the distance from FAQ element and the picture on mobile mode is too big. 
+I have partialy failed with that project. It took me about four times longer than I planned and I did not finished it properly. I did succeed with hover states and with hide/show answer featcher. I could not figure out how to make pictures on full screen mode visible, in the way anables to display three pictures, one over the other. I have tried every option I know, I even used chatGPT, but I didn't find solution to that problem. Instead of this I display mobile version of the picture. 
 
 ### Built with
 
@@ -43,6 +41,7 @@ questions.forEach(q => {
       q.querySelector('.question').style.fontWeight = 'normal';
       q.querySelector('.arrow-img').style.transform = 'rotate(0)';
 `````````````
+I aslo spend a lot of time checking many configurations and dependensies between image position and different form of sizes (px, em, rem, v), so I understand it much better. 
 
 ### Continued development
 
